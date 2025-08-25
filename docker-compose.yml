@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  task-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: task-management-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - task-network
+
+  # Nginx для production (опционально)
+  nginx:
+    image: nginx:alpine
+    container_name: task-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - task-api
+    restart: unless-stopped
+    networks:
+      - task-network
+    profiles:
+      - production
+
+networks:
+  task-network:
+    driver: bridge
+
+volumes:
+  task-data:
+
