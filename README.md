@@ -1,6 +1,6 @@
 # 👨‍💻 Николай Ганеев | Python Backend Developer
 
-[![Telegram](https://img.shields.io/badge/Telegram-@ganeevna-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ganeevna)
+[![Telegram](https://img.shields.io/badge/Telegram-@NGxxx_oos-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NGxxx_oos)
 [![Email](https://img.shields.io/badge/Email-gan3evn@yandex.ru-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gan3evn@yandex.ru)
 [![Location](https://img.shields.io/badge/📍_Санкт--Петербург-строка?style=for-the-badge&logo=google-maps&logoColor=white&color=4285F4)]()
 
