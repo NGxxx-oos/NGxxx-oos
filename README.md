@@ -1,163 +1,111 @@
-Task Management API
+# 👨‍💻 Николай Ганеев | Python Backend Developer
 
-## Обзор проекта
+[![Telegram](https://img.shields.io/badge/Telegram-@ganeevna-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ganeevna)
+[![Email](https://img.shields.io/badge/Email-gan3evn@yandex.ru-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gan3evn@yandex.ru)
+[![Location](https://img.shields.io/badge/📍_Санкт--Петербург-строка?style=for-the-badge&logo=google-maps&logoColor=white&color=4285F4)]()
 
-Успешно создано полнофункциональное REST API приложение для управления задачами с использованием современных технологий и лучших практик разработки.
+**Python-разработчик с опытом создания и оптимизации backend-решений для веб-приложений.**  
+В работе уделяю внимание не только функциональности кода, но и его производительности, поддерживаемости и соответствию бизнес-задачам.
 
-## Выполненные требования
+---
 
-### Функциональные требования
+## 🛠️ Технологический стек
 
-- **CRUD операции**: Полностью реализованы все операции (create, get, get_list, update, delete)
-- **Модель задачи**: Содержит UUID, название, описание и статусы (создано, в работе, завершено)
-- **Валидация данных**: Строгая валидация с помощью Pydantic схем
+### **Backend Development**
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django_REST-092E20?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
-### Технические требования
+### **Databases & Caching**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
-#### Backend фреймворк
+### **DevOps & Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-FF6F00?style=flat&logo=githubactions&logoColor=white)
 
-- **FastAPI** - выбран как приоритетный фреймворк
-- Современный, быстрый и с автоматической генерацией документации
-- Полная поддержка async/await и type hints
+### **Monitoring & Observability**
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D50000?style=flat&logo=zabbix&logoColor=white)
 
-#### Тестовый фреймворк
+### **Machine Learning** *(исследую)*
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
-- **Gauge** - выбран как приоритетный фреймворк для BDD тестирования
-- Созданы подробные спецификации тестов на русском языке
-- 100% покрытие всех CRUD операций
-- Тесты на обработку ошибок и валидацию данных
-- **Результат тестирования**: 8 сценариев выполнено, 8 прошло, 0 провалено
+---
 
-#### Стандарты оформления кода
+## 📊 Ключевые навыки
 
-- **PEP 8** - полное соблюдение стандартов Python
-- **Type hints** - использованы везде для лучшей читаемости
-- **Docstrings** - документация всех функций и классов
-- **Clean Code** - следование принципам SOLID и чистой архитектуры
+- **Backend-разработка** на Python 3.9+ с использованием Django и Django REST Framework
+- **Проектирование и оптимизация** реляционных баз данных (PostgreSQL), включая сложные запросы, индексацию и анализ производительности
+- **Разработка REST API** с полным циклом - от проектирования эндпоинтов до документации и тестирования
+- **Организация фоновых задач** и асинхронных процессов с помощью Celery и Redis
+- **Code Review** с фокусом на качество кода, выявление узких мест и потенциальных уязвимостей
+- **Написание технической документации**, декомпозиция задач и оценка трудозатрат
 
-### Дополнительные возможности
+---
 
-#### Swagger документация
+## 💼 Опыт работы
 
-- Автоматически генерируемая интерактивная документация
-- Доступна по адресу `/docs` и `/redoc`
-- Полное описание всех endpoints и схем данных
+### **Python-разработчик / Инженер по автоматизации и мониторингу**
+**Ростелеком** | *Февраль 2024 — Июль 2025 (1 год 6 месяцев)* | Ростов-на-Дону
+- Поиск и устранение багов в ПО, оптимизация кода
+- Разработка и поддержка скриптов (Python) для автоматизации рутинных задач
+- Настройка и развертывание систем мониторинга (серверы, сетевые устройства, приложения)
+- Анализ инцидентов, постмортемы, разработка решений для предотвращения сбоев
+- Взаимодействие с командами (разработчики, тестировщики, DevOps, инсталляторы)
 
-#### Docker контейнеризация
+### **Python-разработчик**
+**ANCOR** | *Июнь 2023 — Август 2023 (3 месяца)* | Санкт-Петербург
+- Разработка и поддержка масштабных веб-приложений и систем обработки данных
+- Проектирование серверной архитектуры, оптимизация производительности и безопасности
+- Интеграция внешних API, работа с базами данных (PostgreSQL), контейнеризация приложений
+- Участие в полном цикле разработки: от проектирования до тестирования и внедрения новых функций
 
-- **Dockerfile** - оптимизированный для production
-- **docker-compose.yml** - для удобного развертывания
-- **nginx.conf** - конфигурация для production с reverse proxy
-- **.dockerignore** - оптимизация сборки образа
+---
 
-#### Подробная документация
+## 🎓 Образование и курсы
 
-- **README.md** - полная документация проекта
-- Инструкции по установке и запуску
-- Описание всех API endpoints с примерами
-- Рекомендации для production развертывания
+**Северо-Кавказский филиал МТУСИ** (Ростов-на-Дону)  
+*Информатика и вычислительная техника, Искусственный интеллект и Машинное обучение*  
+*Бакалавр (завершение в 2027)*
 
-## Архитектура проекта
+**Повышение квалификации:**
+- **Python-разработчик** | Университет Иннополис (2025)
+- **Аналитик данных** | Центр непрерывного образования ФКН НИУ ВШЭ (2025)
 
-### Структура файлов
+---
 
-```
-task_management_api/
-├── app/
-│   ├── main.py          # FastAPI приложение
-│   ├── models.py        # Модели данных
-│   ├── schemas.py       # Pydantic схемы
-│   └── crud.py          # CRUD операции
-├── specs/               # Gauge спецификации
-├── step_impl/           # Реализация тестовых шагов
-├── Dockerfile           # Docker образ
-├── docker-compose.yml   # Docker Compose
-├── nginx.conf           # Nginx конфигурация
-└── README.md            # Документация
-```
+## 🌐 Языки
+- **Русский** — Родной
+- **Английский** — B1 (Средний)
 
-### Технологический стек
+---
 
-- **Python 3.11** - современная версия языка
-- **FastAPI** - веб-фреймворк для API
-- **Pydantic** - валидация данных
-- **Uvicorn** - ASGI сервер
-- **Gauge** - BDD тестирование
-- **Docker** - контейнеризация
-- **Nginx** - reverse proxy для production
+## 🎯 Обо мне
 
-## API Endpoints
+Привык не просто выполнять задачи по ТЗ, но и анализировать их с точки зрения оптимальности решения.  
+**Примеры достижений:**
+- Выявил и оптимизировал медленные SQL-запросы, что сократило время формирования отчетов на **40%**
+- Предложил архитектурные улучшения системы уведомлений, что повысило её надежность и удобство поддержки
 
-### Базовые endpoints
+**Ищу возможность присоединиться к сильной команде, где смогу применять и развивать свои навыки, участвуя в создании масштабируемых и качественных IT-решений.**
 
-- `GET /` - Информация о API
-- `GET /health` - Health check
-- `GET /docs` - Swagger документация
+---
 
-### CRUD операции
+## 📫 Контакты
+- **Телефон:** +7 (911) 198-61-44
+- **Email:** gan3evn@yandex.ru
+- **Город:** Санкт-Петербург
+- **Готов к:** переезду, командировкам, удаленной работе
 
-- `POST /tasks` - Создание задачи
-- `GET /tasks` - Получение списка задач (с фильтрацией)
-- `GET /tasks/{task_id}` - Получение задачи по ID
-- `PUT /tasks/{task_id}` - Обновление задачи
-- `DELETE /tasks/{task_id}` - Удаление задачи
+---
 
-## Качество кода
-
-### Тестирование
-
-- **Покрытие**: 100% всех CRUD операций
-- **Типы тестов**: Функциональные, интеграционные, валидация
-- **Результат**: Все тесты проходят успешно
-
-### Стандарты кода
-
-- **PEP 8**: Полное соблюдение
-- **Type hints**: Везде используются
-- **Документация**: Все функции документированы
-- **Архитектура**: Следование принципам SOLID
-
-## Демонстрация работы
-
-### Запуск приложения
-
-```bash
-cd task_management_api
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
-
-### Доступные URL
-
-- API: http://localhost:8000
-- Swagger: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-- Health: http://localhost:8000/health
-
-### Запуск тестов
-
-```bash
-gauge run specs/
-```
-
-### Docker запуск
-
-```bash
-docker-compose up
-```
-
-## Готовность к production
-
-Проект полностью готов к развертыванию в production окружении:
-
-- Контейнеризация с Docker
-- Конфигурация Nginx для масштабирования
-- Health checks для мониторинга
-- Документация для команды разработки
-- Высокое качество кода и тестов
-
-## Заключение
-
-Проект Task Management API успешно выполнен в соответствии со всеми требованиями. Использованы современные технологии, соблюдены стандарты разработки, обеспечено высокое качество кода и полное покрытие тестами. Приложение готово к использованию в production окружении.
+⭐ *"Любой достаточно продвинутый код неотличим от магии"* — Артур Кларк
