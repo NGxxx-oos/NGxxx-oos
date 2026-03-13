@@ -2,7 +2,6 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-@NGxxx_oos-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NGxxx_oos)
 [![Email](https://img.shields.io/badge/Email-gan3evn@yandex.ru-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gan3evn@yandex.ru)
-[![Phone](https://img.shields.io/badge/Phone-+7(911)1986144-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+79111986144)
 [![Location](https://img.shields.io/badge/📍_Санкт--Петербург-4285F4?style=for-the-badge&logo=google-maps&logoColor=white)]()
 
 **Python-разработчик с 2+ годами опыта создания высоконагруженных бэкенд-решений и автоматизации инфраструктуры.**  
